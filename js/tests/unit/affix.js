@@ -1,4 +1,5 @@
 $(function () {
+  'use strict';
 
   module('affix')
 
@@ -13,7 +14,7 @@ $(function () {
   })
 
   test('should return element', function () {
-    ok($(document.body).affix()[0] == document.body, 'document.body returned')
+    ok($(document.body).affix()[0] === document.body, 'document.body returned')
   })
 
   test('should exit early if element is not visible', function () {
@@ -36,7 +37,7 @@ $(function () {
       .on('affix.bs.affix', function () {
         ok(true, 'affix event triggered')
       }).on('affixed.bs.affix', function () {
-        ok(true,'affixed event triggered')
+        ok(true, 'affixed event triggered')
         $('#affixTarget').remove()
         $('#affixAfter').remove()
         start()
@@ -44,7 +45,7 @@ $(function () {
 
     setTimeout(function () {
       window.scrollTo(0, document.body.scrollHeight)
-      setTimeout(function () { window.scroll(0,0) }, 0)
-    },0)
+      setTimeout(function () { window.scroll(0, 0) }, 0)
+    }, 0)
   })
 })
