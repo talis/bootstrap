@@ -61,7 +61,7 @@
       this.$element
         .removeClass('collapsing')
         .addClass('collapse in')
-        [dimension]('auto')
+        [dimension]('')
       this.transitioning = 0
       this.$element.trigger('shown.bs.collapse')
     }

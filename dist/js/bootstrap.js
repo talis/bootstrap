@@ -521,7 +521,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
       this.$element
         .removeClass('collapsing')
         .addClass('collapse in')
-        [dimension]('auto')
+        [dimension]('')
       this.transitioning = 0
       this.$element.trigger('shown.bs.collapse')
     }
