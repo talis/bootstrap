@@ -4578,7 +4578,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar {
   position: relative;
-  min-height: 44px;
+  min-height: 59px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4694,7 +4694,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   float: right;
-  height: 44px;
+  height: 59px;
   padding: 0 0;
   font-size: 18px;
   line-height: 20px;
@@ -4716,8 +4716,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: left;
   padding: 9px 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
   margin-left: 0;
   background-color: transparent;
   background-image: none;
@@ -4815,9 +4815,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-form {
   padding: 10px 0;
-  margin-top: 5px;
+  margin-top: 12.5px;
   margin-right: -0;
-  margin-bottom: 5px;
+  margin-bottom: 12.5px;
   margin-left: -0;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
@@ -4902,23 +4902,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-btn {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
 }
 
 .navbar-btn.btn-sm {
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 14.5px;
+  margin-bottom: 14.5px;
 }
 
 .navbar-btn.btn-xs {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 18.5px;
+  margin-bottom: 18.5px;
 }
 
 .navbar-text {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 19.5px;
+  margin-bottom: 19.5px;
 }
 
 @media (min-width: 768px) {
