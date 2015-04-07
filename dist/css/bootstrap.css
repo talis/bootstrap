@@ -1686,7 +1686,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
+  color: #5e5e5e;
 }
 .form-control {
   display: block;
@@ -1695,16 +1695,11 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
+  color: #5e5e5e;
+  background-color: #ebebeb;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
   border-color: #66afe9;
@@ -2083,7 +2078,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
   color: #fff;
   background-color: #017d87;
-  border-color: #01666e;
+  border-color: #017d87;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2092,7 +2087,7 @@ fieldset[disabled] .btn-default.active {
 .open .dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #01575e;
-  border-color: #002d31;
+  border-color: #01454a;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2115,7 +2110,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
   background-color: #017d87;
-  border-color: #01666e;
+  border-color: #017d87;
 }
 .btn-primary .badge {
   color: #017d87;
@@ -3381,7 +3376,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555;
+  color: #5e5e5e;
   text-align: center;
   background-color: #eee;
   border: 1px solid #ccc;
