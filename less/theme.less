@@ -35,7 +35,8 @@
   #gradient > .vertical(@start-color: @btn-color; @end-color: darken(@btn-color, 12%));
   .reset-filter(); // Disable gradients for IE9 because filter bleeds through rounded corners
   background-repeat: repeat-x;
-  border-color: darken(@btn-color, 14%);
+//  border-color: darken(@btn-color, 14%);
+  border-color: @btn-color;
 
   &:hover,
   &:focus  {

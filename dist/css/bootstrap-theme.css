@@ -42,7 +42,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #dbdbdb;
+  border-color: #fff;
   border-color: #ccc;
 }
 .btn-default:hover,
@@ -63,7 +63,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff017d87', endColorstr='#ff01454a', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #003b40;
+  border-color: #017d87;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -83,7 +83,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #3e8f3e;
+  border-color: #5cb85c;
 }
 .btn-success:hover,
 .btn-success:focus {
@@ -103,7 +103,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #28a4c9;
+  border-color: #5bc0de;
 }
 .btn-info:hover,
 .btn-info:focus {
@@ -123,7 +123,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #e38d13;
+  border-color: #f0ad4e;
 }
 .btn-warning:hover,
 .btn-warning:focus {
@@ -143,7 +143,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #b92c28;
+  border-color: #d9534f;
 }
 .btn-danger:hover,
 .btn-danger:focus {
