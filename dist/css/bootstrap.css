@@ -1703,6 +1703,9 @@ output {
 }
 .form-control:focus {
   border: 1px solid rgba(1, 125, 135, .6);
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .form-control::-moz-placeholder {
   color: #5e5e5e;
