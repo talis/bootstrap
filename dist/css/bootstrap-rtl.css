@@ -2193,7 +2193,7 @@ output {
   color: #000;
   background-color: #ebebeb;
   background-image: none;
-  border: 0;
+  border: 1px solid transparent;
   border-radius: 4px;
 }
 
