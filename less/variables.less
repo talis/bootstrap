@@ -7,11 +7,26 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@gray-darker:            lighten(#000, 13.5%); // #222
-@gray-dark:              lighten(#000, 20%);   // #333
-@gray:                   lighten(#000, 33.5%); // #555
-@gray-light:             lighten(#000, 60%);   // #999
-@gray-lighter:           lighten(#000, 93.5%); // #eee
+@talis-turqoise: #017d87;
+@accent-turqoise: #005d64;
+@talis-pink: #c5197d;
+
+@black: #000000;
+@death-star-grey: lighten(@black, 37%); // #5e5e5e
+@battleship-grey: lighten(@black, 55%); // #8c8c8c
+@misty-morning-grey: lighten(@black, 92%); // #ebebeb
+
+@green: #3f9e76;
+@yellow: #fdb815;
+@red: #a02f2b;
+@purple: #c5197d;
+@orange: #f47821;
+
+@gray-darker:            @black;
+@gray-dark:              @death-star-grey;   // #5e5e5e
+@gray:                   @battleship-grey; // #8c8c8c
+@gray-light:             @misty-morning-grey;   // #ebebeb
+@gray-lighter:           @misty-morning-grey; // #ebebeb
 
 @brand-primary:         #017d87;
 @brand-success:         #5cb85c;
@@ -47,7 +62,7 @@
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@font-size-base:          13px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
@@ -65,7 +80,7 @@
 
 //** By default, this inherits from the `<body>`.
 @headings-font-family:    inherit;
-@headings-font-weight:    500;
+@headings-font-weight:    300;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
 
@@ -97,8 +112,8 @@
 @line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
 @line-height-small:         1.5;
 
-@border-radius-base:        4px;
-@border-radius-large:       6px;
+@border-radius-base:        3px;
+@border-radius-large:       5px;
 @border-radius-small:       3px;
 
 //** Global color for active items (e.g., navs or dropdowns).
@@ -130,7 +145,8 @@
 @table-bg-active:               @table-bg-hover;
 
 //** Border color for table and cell borders.
-@table-border-color:            #ddd;
+@table-header-color: @black;
+@table-border-color:            @gray-light;
 
 
 //== Buttons
@@ -139,9 +155,9 @@
 
 @btn-font-weight:                normal;
 
-@btn-default-color:              #333;
+@btn-default-color:              @brand-primary;
 @btn-default-bg:                 #fff;
-@btn-default-border:             #ccc;
+@btn-default-border:             @gray-light;
 
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;
@@ -617,7 +633,7 @@
 //## Define alert colors, border radius, and padding.
 
 @alert-padding:               15px;
-@alert-border-radius:         @border-radius-base;
+@alert-border-radius:         0;
 @alert-link-font-weight:      bold;
 
 @alert-success-bg:            @state-success-bg;
@@ -753,7 +769,7 @@
 //
 //##
 
-@well-bg:                     #EBEBEB;
+@well-bg:                     #ebebeb;
 @well-border:                 transparent;
 
 
