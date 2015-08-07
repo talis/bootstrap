@@ -57,17 +57,21 @@
 // Generate contextual modifier classes for colorizing the alert.
 
 .alert-success {
-  .alert-variant(@alert-success-bg; @alert-success-border; @alert-success-text);
+  // .alert-variant(@alert-success-bg; @alert-success-border; @alert-success-text);
+  border-left-color: @alert-success-bg;
 }
 
 .alert-info {
-  .alert-variant(@alert-info-bg; @alert-info-border; @alert-info-text);
+  // .alert-variant(@alert-info-bg; @alert-info-border; @alert-info-text);
+  border-left-color: @alert-info-bg;
 }
 
 .alert-warning {
-  .alert-variant(@alert-warning-bg; @alert-warning-border; @alert-warning-text);
+  // .alert-variant(@alert-warning-bg; @alert-warning-border; @alert-warning-text);
+  border-left-color: @alert-warning-bg;
 }
 
 .alert-danger {
-  .alert-variant(@alert-danger-bg; @alert-danger-border; @alert-danger-text);
+  // .alert-variant(@alert-danger-bg; @alert-danger-border; @alert-danger-text);
+  border-left-color: @alert-danger-bg;
 }
