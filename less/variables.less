@@ -29,7 +29,7 @@
 @gray-lighter:           #f9f9f9; // #ebebeb
 
 @brand-primary:         @talis-turqoise;
-@brand-success:         #5cb85c;
+@brand-success:         @green;
 @brand-info:            @talis-pink;
 @brand-warning:         #f0ad4e;
 @brand-danger:          @red;
@@ -577,7 +577,7 @@
 //##
 
 //** Default label background color
-@label-default-bg:            @gray-light;
+@label-default-bg:            @gray;
 //** Primary label background color
 @label-primary-bg:            @brand-primary;
 //** Success label background color
@@ -636,21 +636,21 @@
 @alert-border-radius:         0;
 @alert-link-font-weight:      bold;
 
-@alert-success-bg:            lighten(@green, 50%);
+@alert-success-bg:            lighten(@brand-success, 50%);
 @alert-success-text:          @black;
-@alert-success-border:        @green;
+@alert-success-border:        @brand-success;
 
 @alert-info-bg:               @gray-lighter;
 @alert-info-text:             @black;
-@alert-info-border:           @gray-light;
+@alert-info-border:           @gray-dark;
 
-@alert-warning-bg:            lighten(@yellow, 50%);
+@alert-warning-bg:            lighten(@brand-warning, 50%);
 @alert-warning-text:          @black;
-@alert-warning-border:        @yellow;
+@alert-warning-border:        @brand-warning;
 
-@alert-danger-bg:             lighten(@red, 50%);
+@alert-danger-bg:             lighten(@brand-danger, 50%);
 @alert-danger-text:           @black;
-@alert-danger-border:         @red;
+@alert-danger-border:         @brand-danger;
 
 
 //== Progress bars
