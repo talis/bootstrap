@@ -9,7 +9,8 @@
 .alert {
   padding: @alert-padding;
   margin-bottom: @line-height-computed;
-  border: 1px solid transparent;
+  border-left-width: 5px;
+  border-left-style: solid;
   border-radius: @alert-border-radius;
 
   // Headings for larger alerts
@@ -57,21 +58,22 @@
 // Generate contextual modifier classes for colorizing the alert.
 
 .alert-success {
-  // .alert-variant(@alert-success-bg; @alert-success-border; @alert-success-text);
-  border-left-color: @alert-success-bg;
+  .alert-variant(@alert-success-bg; @alert-success-border; @alert-success-text);
+  // background-color: #EDF8F3;
+  // border-left-color: @alert-success-bg;
 }
 
 .alert-info {
-  // .alert-variant(@alert-info-bg; @alert-info-border; @alert-info-text);
-  border-left-color: @alert-info-bg;
+  .alert-variant(@alert-info-bg; @alert-info-border; @alert-info-text);
+  // border-left-color: @alert-info-bg;
 }
 
 .alert-warning {
-  // .alert-variant(@alert-warning-bg; @alert-warning-border; @alert-warning-text);
-  border-left-color: @alert-warning-bg;
+  .alert-variant(@alert-warning-bg; @alert-warning-border; @alert-warning-text);
+  // border-left-color: @alert-warning-bg;
 }
 
 .alert-danger {
-  // .alert-variant(@alert-danger-bg; @alert-danger-border; @alert-danger-text);
-  border-left-color: @alert-danger-bg;
+  .alert-variant(@alert-danger-bg; @alert-danger-border; @alert-danger-text);
+  // border-left-color: @alert-danger-bg;
 }

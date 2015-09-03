@@ -509,7 +509,7 @@
 //## Define colors for form feedback states and, by default, alerts.
 
 @state-success-text:             #3c763d;
-@state-success-bg:               #dff0d8;
+@state-success-bg:               @green;
 @state-success-border:           darken(spin(@state-success-bg, -10), 5%);
 
 @state-info-text:                #31708f;
@@ -636,21 +636,21 @@
 @alert-border-radius:         0;
 @alert-link-font-weight:      bold;
 
-@alert-success-bg:            @state-success-bg;
-@alert-success-text:          @state-success-text;
-@alert-success-border:        @state-success-border;
+@alert-success-bg:            lighten(@green, 50%);
+@alert-success-text:          @black;
+@alert-success-border:        @green;
 
-@alert-info-bg:               @state-info-bg;
-@alert-info-text:             @state-info-text;
-@alert-info-border:           @state-info-border;
+@alert-info-bg:               @gray-lighter;
+@alert-info-text:             @black;
+@alert-info-border:           @gray-light;
 
-@alert-warning-bg:            @state-warning-bg;
-@alert-warning-text:          @state-warning-text;
-@alert-warning-border:        @state-warning-border;
+@alert-warning-bg:            lighten(@yellow, 50%);
+@alert-warning-text:          @black;
+@alert-warning-border:        @yellow;
 
-@alert-danger-bg:             @state-danger-bg;
-@alert-danger-text:           @state-danger-text;
-@alert-danger-border:         @state-danger-border;
+@alert-danger-bg:             lighten(@red, 50%);
+@alert-danger-text:           @black;
+@alert-danger-border:         @red;
 
 
 //== Progress bars
