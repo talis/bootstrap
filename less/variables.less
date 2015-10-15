@@ -10,6 +10,7 @@
 @talis-turqoise: #017d87;
 @accent-turqoise: #005d64;
 @talis-pink: #c5197d;
+@accent-pink: #891157;
 
 @black: #000000;
 @death-star-grey: lighten(@black, 37%); // #5e5e5e
@@ -29,6 +30,7 @@
 @gray-lighter:           #f9f9f9;
 
 @brand-primary:         @talis-pink;
+@brand-accent:          @accent-pink;
 @brand-success:         @green;
 @brand-info:            @talis-turqoise;
 @brand-warning:         @yellow;
@@ -257,7 +259,7 @@
 
 @dropdown-link-hover-color:      darken(#fff, 5%);
 //** Hover background for dropdown links.
-@dropdown-link-hover-bg:         @accent-turqoise;
+@dropdown-link-hover-bg:         @brand-accent;
 
 //** Active dropdown menu item text color.
 @dropdown-link-active-color:     @component-active-color;
@@ -376,16 +378,16 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             #017d87;
-@navbar-default-bg:                #017d87;
-@navbar-default-border:            #017d87;
+@navbar-default-color:             @brand-primary;
+@navbar-default-bg:                @brand-primary;
+@navbar-default-border:            @brand-primary;
 
 // Navbar links
 @navbar-default-link-color:                #fff;
 @navbar-default-link-hover-color:          #fff;
-@navbar-default-link-hover-bg:             @accent-turqoise;
+@navbar-default-link-hover-bg:             @brand-accent;
 @navbar-default-link-active-color:         #fff;
-@navbar-default-link-active-bg:            #005d64;
+@navbar-default-link-active-bg:            @brand-accent;
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
 
