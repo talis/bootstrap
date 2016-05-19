@@ -62,11 +62,54 @@
 // --------------------------------------------------
 
 .btn-default {
-  .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+  color: @brand-primary;
+  background-color: @white;
+  border-color: @misty-morning-grey;
+
+  &:hover,
+  &:focus,
+  &.focus {
+    color: @accent-turqoise;
+    background-color: @gray-lighter;
+  }
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    color: @accent-turqoise;
+    background-color: @misty-morning-grey;
+        border-color: @misty-morning-grey;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: @misty-morning-grey;
+          border-color: @misty-morning-grey;
+    }
+  }
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: @misty-morning-grey;
+          border-color: @misty-morning-grey;
+    }
+  }
 }
+
 .btn-primary {
-  .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
+
 }
+
 // Success appears as green
 .btn-success {
   .button-variant(@btn-success-color; @btn-success-bg; @btn-success-border);

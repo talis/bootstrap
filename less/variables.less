@@ -12,6 +12,8 @@
 @talis-pink: #c5197d;
 
 @black: #000000;
+@white: #ffffff;
+
 @death-star-grey: lighten(@black, 37%); // #5e5e5e
 @battleship-grey: lighten(@black, 55%); // #8c8c8c
 @misty-morning-grey: lighten(@black, 92%); // #ebebeb
@@ -26,7 +28,7 @@
 @gray-dark:              @death-star-grey;   // #5e5e5e
 @gray:                   @battleship-grey; // #8c8c8c
 @gray-light:             @misty-morning-grey;   // #ebebeb
-@gray-lighter:           #f9f9f9;
+@gray-lighter:           lighten(@black, 98%); // #f9f9f9;
 
 @brand-primary:         @talis-turqoise;
 @brand-success:         @green;
@@ -192,14 +194,15 @@
 //##
 
 //** `<input>` background color
-@input-bg:                       #EBEBEB;
+@input-bg:                       @gray-light;
 //** `<input disabled>` background color
-@input-bg-disabled:              @gray-lighter;
+@input-bg-disabled:              @white;
 
 //** Text color for `<input>`s
 @input-color:                    black;
 //** `<input>` border color
-@input-border:                   #ccc;
+@input-border:                   @gray-light;
+@input-border-disabled: @white;
 
 // TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
 //** Default `.form-control` border radius
@@ -211,7 +214,7 @@
 @input-border-radius-small:      @border-radius-small;
 
 //** Border color for inputs on focus
-@input-border-focus:             #66afe9;
+@input-border-focus:             @talis-turqoise;
 
 //** Placeholder text color
 @input-color-placeholder:        #5E5E5E;
